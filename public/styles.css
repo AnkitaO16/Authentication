@@ -1,0 +1,60 @@
+/* Reset some default browser styles */
+body, ul, h1, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  nav {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    font-size: 16px;
+  }
+  
+  nav ul li a {
+    text-decoration: none !important;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .nav_list ul li a:hover {
+    color: red !important;
+  }
+  
+  label{
+    width: 90px;
+    display: block;
+    float: left;
+}
+
+form{
+    box-shadow: 0 0 2.3rem;
+    padding: 20px;
+    width: 30%;
+    margin-left: 20rem;
+}
+  /* Add more specific styles for your content as needed */
+  
